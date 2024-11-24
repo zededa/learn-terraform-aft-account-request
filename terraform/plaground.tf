@@ -27,5 +27,5 @@ module "playground" {
     group = "non-prod"
   }
 
-  account_customizations_name = "Cluster2.0-Playground"
+  account_customizations_name = "c20-development"
 }

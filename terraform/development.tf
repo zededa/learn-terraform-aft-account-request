@@ -28,5 +28,5 @@ module "development" {
     group = "non-prod"
   }
 
-#  account_customizations_name = "c20-development"
+  account_customizations_name = "c20-development"
 }
