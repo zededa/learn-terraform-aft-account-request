@@ -2,7 +2,7 @@ module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "ext-aws+sandbox_c20@zededa.com"
+    AccountEmail              = "ext-aws+playground_c20@zededa.com"
     AccountName               = "Cluster2.0-Playground"
     ManagedOrganizationalUnit = "ou-9hqi-47g15pm3"
     SSOUserEmail              = "michel@zededa.com"
