@@ -11,7 +11,11 @@ module "sandbox" {
   }
 
   account_tags = {
-    "Learn Tutorial" = "AFT"
+    customer        = "ZEDEDA Inc. Internal"
+    deployment_zone = "playground"
+    audience        = "sre"
+    region          = "eu-west-2"
+    owner           = "padraig@zededa.com"
   }
 
   change_management_parameters = {
