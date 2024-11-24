@@ -4,7 +4,7 @@ module "sandbox" {
   control_tower_parameters = {
     AccountEmail              = "ext-aws+sandbox_c20@zededa.com"
     AccountName               = "Cluster2.0-Playground"
-    ManagedOrganizationalUnit = "AFT"
+    ManagedOrganizationalUnit = "ou-9hqi-47g15pm3"
     SSOUserEmail              = "michel@zededa.com"
     SSOUserFirstName          = "Sandbox"
     SSOUserLastName           = "AFT"
